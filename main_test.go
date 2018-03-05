@@ -17,12 +17,12 @@ const (
 )
 
 const (
-	command_11_4     = "cd /home/MBrand/ && ./FirstSetup.sh localhost menable"
-	command_11_5     = "cd /home/MBrand/ && ./FirstSetup.sh -h localhost -d menable -s test -i 123"
-	command_trunk    = "cd /home/MBrand/ && ./FirstSetup.sh -h localhost -d menable -s test -i 123"
-	sourcePath_11_4  = "/Users/pawel/Work/repo/SourceCode/Dragon_11_4/Source/Scripts/MBrand/"
-	sourcePath_11_5  = "/Users/pawel/Work/repo/SourceCode/Dragon_11_5/Source/Scripts/MBrand/"
-	sourcePath_trunk = "/Users/pawel/Work/repo/SourceCode/trunk/Source/Scripts/MBrand/"
+	command_11_4     = "cd /home/test/ && ./Setup.sh localhost m"
+	command_11_5     = "cd /home/test/ && ./Setup.sh -h localhost -d m -s test -i 123"
+	command_trunk    = "cd /home/test/ && ./Setup.sh -h localhost -d m -s test -i 123"
+	sourcePath_11_4  = "/Users/pawel/Work/repo/SourceCode/D_11_4/Source/Scripts/test/"
+	sourcePath_11_5  = "/Users/pawel/Work/repo/SourceCode/D_11_5/Source/Scripts/test/"
+	sourcePath_trunk = "/Users/pawel/Work/repo/SourceCode/trunk/Source/Scripts/test/"
 )
 
 func dbSchemaTest_11_4(t *testing.T, conn *sql.DB, db *PostgresDB) {
